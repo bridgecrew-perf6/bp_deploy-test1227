@@ -499,5 +499,5 @@ def process_postback_event(event):
           )
   else:
       pass
-
-app.run()
+if __name__ == "__main__":
+  app.run()

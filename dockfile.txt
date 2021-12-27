@@ -9,5 +9,5 @@ RUN mkdir var && \
     apt-get install -y python3-pip tzdata && \
     dpkg-reconfigure -f noninteractive tzdata && \
     pip3 install -r requirements.txt
-EXPOSE 3000
-CMD uwsgi -w main:app -s :3000 --logto var/sat.log
+EXPOSE 5000
+CMD uwsgi -w main:app -s :5000 --logto var/sat.log

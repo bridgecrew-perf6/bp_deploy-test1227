@@ -1,0 +1,941 @@
+[
+  {
+    "type": "flex",
+    "altText": "this is a carousel template",
+    "contents": {
+      "type": "carousel",
+      "contents": [
+        {
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://lh5.googleusercontent.com/p/AF1QipMG5KmX0aokrQEbkfN-mxGw3Cr56-8EsKPrXD7I=w408-h272-k-no",
+    "flex": 5,
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "message",
+      "label": "action",
+      "text": "我就愛點圖"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "margin": "xxl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "[unknow]",
+        "weight": "bold",
+        "size": "xl",
+        "margin": "none",
+        "wrap": true,
+        "align": "start",
+        "color": "#D2B48C"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "用戶評價",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#FF0000",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center",
+            "margin": "none",
+            "contents": []
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "評論好感度",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "align": "center",
+            "contents": []
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "spacing": "none",
+        "contents": [
+          {
+            "type": "text",
+            "text": "評論標籤",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "wrap": true,
+            "contents": [],
+            "align": "center"
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "地址",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "wrap": true,
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "contents": [],
+            "maxLines": 2,
+            "align": "center"
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "電話",
+            "size": "md",
+            "color": "#AAAAAA",
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "align": "center",
+            "contents": []
+          }
+        ],
+        "margin": "md"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "flex": 0,
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "致電給店家",
+          "uri": "tel://1999"
+        },
+        "height": "sm",
+        "style": "secondary"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "使用GoogleMap開啟",
+          "uri": "https://www.google.com/maps/place/"
+        },
+        "height": "sm",
+        "style": "primary"
+      }
+    ]
+  }
+},
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://lh5.googleusercontent.com/p/AF1QipMG5KmX0aokrQEbkfN-mxGw3Cr56-8EsKPrXD7I=w408-h272-k-no",
+    "flex": 5,
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "message",
+      "label": "action",
+      "text": "我就愛點圖"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "margin": "xxl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "[unknow]",
+        "weight": "bold",
+        "size": "xl",
+        "margin": "none",
+        "wrap": true,
+        "align": "start",
+        "color": "#D2B48C"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "用戶評價",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#FF0000",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center",
+            "margin": "none",
+            "contents": []
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "評論好感度",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "align": "center",
+            "contents": []
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "spacing": "none",
+        "contents": [
+          {
+            "type": "text",
+            "text": "評論標籤",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "wrap": true,
+            "contents": [],
+            "align": "center"
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "地址",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "wrap": true,
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "contents": [],
+            "maxLines": 2,
+            "align": "center"
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "電話",
+            "size": "md",
+            "color": "#AAAAAA",
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "align": "center",
+            "contents": []
+          }
+        ],
+        "margin": "md"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "flex": 0,
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "致電給店家",
+          "uri": "tel://1999"
+        },
+        "height": "sm",
+        "style": "secondary"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "使用GoogleMap開啟",
+          "uri": "https://www.google.com/maps/place/"
+        },
+        "height": "sm",
+        "style": "primary"
+      }
+    ]
+  }
+},
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://lh5.googleusercontent.com/p/AF1QipMG5KmX0aokrQEbkfN-mxGw3Cr56-8EsKPrXD7I=w408-h272-k-no",
+    "flex": 5,
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "message",
+      "label": "action",
+      "text": "我就愛點圖"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "margin": "xxl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "[unknow]",
+        "weight": "bold",
+        "size": "xl",
+        "margin": "none",
+        "wrap": true,
+        "align": "start",
+        "color": "#D2B48C"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "用戶評價",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#FF0000",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center",
+            "margin": "none",
+            "contents": []
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "評論好感度",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "align": "center",
+            "contents": []
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "spacing": "none",
+        "contents": [
+          {
+            "type": "text",
+            "text": "評論標籤",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "wrap": true,
+            "contents": [],
+            "align": "center"
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "地址",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "wrap": true,
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "contents": [],
+            "maxLines": 2,
+            "align": "center"
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "電話",
+            "size": "md",
+            "color": "#AAAAAA",
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "align": "center",
+            "contents": []
+          }
+        ],
+        "margin": "md"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "flex": 0,
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "致電給店家",
+          "uri": "tel://1999"
+        },
+        "height": "sm",
+        "style": "secondary"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "使用GoogleMap開啟",
+          "uri": "https://www.google.com/maps/place/"
+        },
+        "height": "sm",
+        "style": "primary"
+      }
+    ]
+  }
+},
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://lh5.googleusercontent.com/p/AF1QipMG5KmX0aokrQEbkfN-mxGw3Cr56-8EsKPrXD7I=w408-h272-k-no",
+    "flex": 5,
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "message",
+      "label": "action",
+      "text": "我就愛點圖"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "margin": "xxl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "[unknow]",
+        "weight": "bold",
+        "size": "xl",
+        "margin": "none",
+        "wrap": true,
+        "align": "start",
+        "color": "#D2B48C"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "用戶評價",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#FF0000",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center",
+            "margin": "none",
+            "contents": []
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "評論好感度",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "align": "center",
+            "contents": []
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "spacing": "none",
+        "contents": [
+          {
+            "type": "text",
+            "text": "評論標籤",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "wrap": true,
+            "contents": [],
+            "align": "center"
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "地址",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "wrap": true,
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "contents": [],
+            "maxLines": 2,
+            "align": "center"
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "電話",
+            "size": "md",
+            "color": "#AAAAAA",
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "align": "center",
+            "contents": []
+          }
+        ],
+        "margin": "md"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "flex": 0,
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "致電給店家",
+          "uri": "tel://1999"
+        },
+        "height": "sm",
+        "style": "secondary"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "使用GoogleMap開啟",
+          "uri": "https://www.google.com/maps/place/"
+        },
+        "height": "sm",
+        "style": "primary"
+      }
+    ]
+  }
+},
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://lh5.googleusercontent.com/p/AF1QipMG5KmX0aokrQEbkfN-mxGw3Cr56-8EsKPrXD7I=w408-h272-k-no",
+    "flex": 5,
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "message",
+      "label": "action",
+      "text": "我就愛點圖"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "margin": "xxl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "[unknow]",
+        "weight": "bold",
+        "size": "xl",
+        "margin": "none",
+        "wrap": true,
+        "align": "start",
+        "color": "#D2B48C"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "用戶評價",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#FF0000",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center",
+            "margin": "none",
+            "contents": []
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "評論好感度",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "align": "center",
+            "contents": []
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "spacing": "none",
+        "contents": [
+          {
+            "type": "text",
+            "text": "評論標籤",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "wrap": true,
+            "contents": [],
+            "align": "center"
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "地址",
+            "size": "md",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "wrap": true,
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "contents": [],
+            "maxLines": 2,
+            "align": "center"
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "電話",
+            "size": "md",
+            "color": "#AAAAAA",
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "[unknow]",
+            "size": "md",
+            "color": "#666666",
+            "flex": 2,
+            "align": "center",
+            "contents": []
+          }
+        ],
+        "margin": "md"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "flex": 0,
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "致電給店家",
+          "uri": "tel://1999"
+        },
+        "height": "sm",
+        "style": "secondary"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "使用GoogleMap開啟",
+          "uri": "https://www.google.com/maps/place/"
+        },
+        "height": "sm",
+        "style": "primary"
+      }
+    ]
+  }
+}
+      ]
+    }
+  }
+]

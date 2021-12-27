@@ -1,0 +1,207 @@
+{
+  "type": "bubble",
+  "size": "giga",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "baseline",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "評分分數",
+            "flex": 3,
+            "size": "3xl",
+            "align": "center"
+          },
+          {
+            "type": "text",
+            "text": "3.9",
+            "size": "3xl",
+            "color": "#DE3163",
+            "margin": "md",
+            "flex": 1,
+            "align": "center",
+            "position": "relative",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "/ 5",
+            "size": "xl",
+            "color": "#aaaaaa",
+            "margin": "md",
+            "flex": 1,
+            "align": "start",
+            "position": "relative"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "地址：",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 2
+              },
+              {
+                "type": "text",
+                "text": "108台灣台北市萬華區未命名的道路",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 5
+              }
+            ],
+            "margin": "lg"
+          },
+          {
+            "type": "text",
+            "text": "周邊機能數量：(500公尺內）",
+            "weight": "regular",
+            "size": "lg",
+            "decoration": "none",
+            "position": "relative",
+            "align": "center",
+            "gravity": "center",
+            "margin": "lg"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "餐廳",
+                "color": "#aaaaaa",
+                "align": "center",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "交通",
+                "color": "#aaaaaa",
+                "flex": 1,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "公園",
+                "color": "#aaaaaa",
+                "flex": 1,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "購物",
+                "color": "#aaaaaa",
+                "flex": 1,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "文教",
+                "color": "#aaaaaa",
+                "flex": 1,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "醫療",
+                "color": "#aaaaaa",
+                "flex": 1,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "運動",
+                "color": "#aaaaaa",
+                "flex": 1,
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "13",
+                "flex": 1,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "11",
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "9",
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "8",
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "6",
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "10",
+                "flex": 1,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "12",
+                "flex": 1,
+                "align": "center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "點我看更多",
+              "text": "#展開所有"
+            },
+            "style": "primary"
+          }
+        ],
+        "margin": "lg"
+      }
+    ]
+  },
+  "styles": {
+    "footer": {
+      "separator": true
+    }
+  }
+}

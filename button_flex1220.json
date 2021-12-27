@@ -1,0 +1,143 @@
+{
+  "type": "bubble",
+  "size": "giga",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "展開所有",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "請點選想要展開的項目按鈕：",
+            "size": "sm",
+            "color": "#999999",
+            "margin": "md",
+            "flex": 0
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "postback",
+              "label": "餐廳",
+              "data": "#food",
+              "displayText": "#餐廳"
+            }
+          },
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "postback",
+              "label": "交通",
+              "data": "#traffic",
+              "displayText": "#交通"
+            }
+          },
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "postback",
+              "label": "公園",
+              "data": "#park",
+              "displayText": "#公園"
+            }
+          },
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "postback",
+              "label": "購物",
+              "data": "#shop",
+              "displayText": "#購物"
+            }
+          }
+        ],
+        "flex": 0
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "文教",
+              "data": "#edu",
+              "displayText": "#文教"
+            },
+            "position": "relative",
+            "margin": "none",
+            "height": "sm",
+            "offsetBottom": "none",
+            "offsetStart": "none"
+          },
+          {
+            "type": "button",
+            "height": "sm",
+            "action": {
+              "type": "postback",
+              "label": "醫療",
+              "data": "#hos",
+              "displayText": "#醫療"
+            },
+            "position": "relative",
+            "margin": "none"
+          },
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "postback",
+              "label": "運動",
+              "data": "#sport",
+              "displayText": "#運動"
+            },
+            "position": "relative",
+            "margin": "none"
+          },
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "postback",
+              "data": "#other",
+              "displayText": "#其他",
+              "label": "其他"
+            },
+            "position": "relative",
+            "margin": "none"
+          }
+        ],
+        "flex": 0
+      }
+    ]
+  }
+}
